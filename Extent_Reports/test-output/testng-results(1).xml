@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-24T19:54:34 IST" name="Suite" finished-at="2025-07-24T19:54:41 IST" duration-ms="7394">
+    <groups>
+    </groups>
+    <test started-at="2025-07-24T19:54:34 IST" name="Test" finished-at="2025-07-24T19:54:41 IST" duration-ms="7394">
+      <class name="ExtentReport_Lecture.orangeHRMTest">
+        <test-method is-config="true" signature="testOpenApp()[pri:0, instance:ExtentReport_Lecture.orangeHRMTest@3a393455]" started-at="2025-07-24T19:54:34 IST" name="testOpenApp" finished-at="2025-07-24T19:54:38 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenApp -->
+        <test-method signature="testLogo()[pri:1, instance:ExtentReport_Lecture.orangeHRMTest@3a393455]" started-at="2025-07-24T19:54:38 IST" name="testLogo" finished-at="2025-07-24T19:54:41 IST" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testURL()[pri:2, instance:ExtentReport_Lecture.orangeHRMTest@3a393455]" started-at="2025-07-24T19:54:41 IST" name="testURL" finished-at="2025-07-24T19:54:41 IST" depends-on-methods="ExtentReport_Lecture.orangeHRMTest.testLogo" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method signature="testTitle()[pri:3, instance:ExtentReport_Lecture.orangeHRMTest@3a393455]" started-at="2025-07-24T19:54:41 IST" name="testTitle" finished-at="2025-07-24T19:54:41 IST" depends-on-methods="ExtentReport_Lecture.orangeHRMTest.testURL" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReport_Lecture.orangeHRMTest@3a393455]" started-at="2025-07-24T19:54:41 IST" name="tearDown" finished-at="2025-07-24T19:54:41 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ExtentReport_Lecture.orangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
